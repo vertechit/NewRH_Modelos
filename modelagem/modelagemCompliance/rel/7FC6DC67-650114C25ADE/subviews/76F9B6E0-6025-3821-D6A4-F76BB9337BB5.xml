@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="vch_vertech" id="76F9B6E0-6025-3821-D6A4-F76BB9337BB5">
+<createdBy>Casa</createdBy>
+<modifiedBy>Casa</modifiedBy>
+<createdTime>2024-05-15 19:27:26 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="79D23793-1DF9-38E4-B286-489C61D9E23A" otype="Table" vid="E82EB138-A648-C49D-FFF6-F30C7896BBE2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="50" y="50" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>
