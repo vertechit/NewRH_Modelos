@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51555697-6DFE-3E2C-E0E0-0C57A601494A" name="RPT_FORMATO">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:59:35 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>rpt_formato</preferredAbbreviation>
+<shortName>rptformato_id</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rptformato_id" id="C4A0479C-402B-DCE9-6AE0-EC2AB14056AD">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:00:01 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="formato" id="C7614684-0340-57CE-529B-F2F644FA9E13">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:01:04 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AE5C232-BE80-2E15-365C-C905F591CD5E" name="rptformato_pk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:00:09 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<synonym>rptformato_pk</synonym>
+<newElementsIDs>C4A0479C-402B-DCE9-6AE0-EC2AB14056AD</newElementsIDs>
+<usedAttributes>
+<attributeRef>C4A0479C-402B-DCE9-6AE0-EC2AB14056AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

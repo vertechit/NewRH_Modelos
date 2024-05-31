@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B87D40F-D6C3-7A60-5893-913FCAA7A050" schemaObject="62D8330E-AB5D-419E-1C34-9938215C2D23" name="cin_perfil">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<generatorID>BB06CB24-A0AB-939F-F144-93B104077412</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<abbreviation>perfil</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="perfil_id" id="7A24A3DA-5700-D981-F1D1-5ECD477714EE">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<generatorID>61F24FC7-EA16-B335-4EB3-27CCFF9315AD</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd" id="910A9D2D-7195-36E9-C9AD-8C8ACF5A6659">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[cd]]></commentInRDBMS>
+<generatorID>0618D3CB-D65B-FB81-6237-732782E022CD</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descr" id="8AEA0E24-6CD6-E2B2-4595-C6845A70DC2D">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[descr]]></commentInRDBMS>
+<generatorID>2D7D6D7F-ED10-A371-EC1C-B50193F9B83E</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gremp_id" id="F6241E23-9275-FC65-A111-3E726BED897C">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<generatorID>4286FEB9-DEC0-A842-31F1-593CA0F3B353</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BE2200A-0890-9F05-9037-CEB5481048CE" referredColumn="6F367E63-B149-BE9E-489C-BBFFC0B87317"/>
+</associations>
+</Column>
+<Column name="sig_medico" id="ACE1C1AB-71F9-F646-E7D0-1B10BC134BFC">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[sig_medico]]></commentInRDBMS>
+<generatorID>2BB89AF6-76E5-AF14-F90F-A1DBD7D798B7</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF3A845D-B5F3-A495-F0F1-1C6D2F3AD3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FEB94A1-610A-F4A6-A0F1-2566B7E53A07" name="perfil_pk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<generatorID>595A71C8-ADF0-B5EF-B9AF-70496FB5FF88</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A24A3DA-5700-D981-F1D1-5ECD477714EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5086206-CCD5-D2A8-5371-032A2E5103D2" name="perfil_1_uk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:50:35 UTC</createdTime>
+<generatorID>CF19880E-5B50-897E-6BDD-006CB4C1EB1A</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="910A9D2D-7195-36E9-C9AD-8C8ACF5A6659"/>
+<colUsage columnID="F6241E23-9275-FC65-A111-3E726BED897C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B63FBC70-407E-0E67-87C5-D12B342DBDE6" name="perfil_empcli_fk_i">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 17:02:29 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6241E23-9275-FC65-A111-3E726BED897C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C74316EB-7333-2CE0-6C1E-090EC53F8FDF" name="perfil_empcli_fk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:55:59 UTC</createdTime>
+<generatorID>5AF75CF0-5E2D-7F4A-F457-7ED664954976</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6241E23-9275-FC65-A111-3E726BED897C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

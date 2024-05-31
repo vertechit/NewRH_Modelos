@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="vch_rpt" directorySegmentName="seg_0" id="F7A8C719-E751-41F7-B134-A7C0CD14E418">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 19:50:22 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<ordsAlias>schema_4</ordsAlias>
+</SchemaObject>

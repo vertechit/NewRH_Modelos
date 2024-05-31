@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BE2200A-0890-9F05-9037-CEB5481048CE" containerWithKeyObject="0B87D40F-D6C3-7A60-5893-913FCAA7A050" localFKIndex="C74316EB-7333-2CE0-6C1E-090EC53F8FDF" name="perfil_empcli_fk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:55:59 UTC</createdTime>
+<generatorID>5AF75CF0-5E2D-7F4A-F457-7ED664954976</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<referredTableLongName>vch_menu.cin_empcli</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>497FBAAC-E0E6-7281-4076-AA60F5BB37B6</referredTableID>
+<keyObject>F16F146E-BDF9-D38C-2C54-4B5645DB48D0</keyObject>
+<referredKeyID>F16F146E-BDF9-D38C-2C54-4B5645DB48D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>gremp_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

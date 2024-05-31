@@ -1,11 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="COR - CORPORATIVO" id="9168FC42-0468-A991-DDFB-32CD37F4BAF7">
-<createdBy>Casa</createdBy>
-<modifiedBy>Casa</modifiedBy>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="RPT - GERENCIADOR DE RELATÓRIOS" id="9168FC42-0468-A991-DDFB-32CD37F4BAF7">
+<createdBy>Ricardo Teixeira</createdBy>
+<modifiedBy>Ricardo Teixeira</modifiedBy>
 <createdTime>2024-05-15 19:27:26 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
-<showLegend>false</showLegend>
+<showLegend>true</showLegend>
 <showLabels>false</showLabels>
 <showRelAttributes>false</showRelAttributes>
 <gridEnabled>false</gridEnabled>
@@ -14,9 +14,17 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="79D23793-1DF9-38E4-B286-489C61D9E23A" otype="Table" vid="004E94A1-A8D2-F8BD-82D4-05936ADB4465">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="096826F8-C692-4635-EB94-4A1920522FF8" otype="Table" vid="64EE4935-257E-6407-D5E3-71ECFC633054">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="176" y="80" width="170" height="110"/>
+<bounds x="1004" y="624" width="287" height="211"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3348C8DC-432C-4FAB-BC04-799E6F731364" otype="Table" vid="FA29ABDC-2CD2-B363-9C57-AC75BEF86EAB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="529" y="280" width="225" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVLegend" oid="35FAC032-C0FD-5CDC-FFFF-9BA7119F3B04" otype="Legend" vid="9E28BAA8-8064-B07E-1D9A-FF6EA849A91B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="10" y="10" width="388" height="135"/>
 </OView>
 </objectViews>
 </Diagram>

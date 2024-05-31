@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="vch_menu" directorySegmentName="seg_0" id="62D8330E-AB5D-419E-1C34-9938215C2D23">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-27 20:03:41 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<ordsAlias>schema_2</ordsAlias>
+</SchemaObject>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="perfil_gremp_fk" directorySegmentName="seg_0" id="5AF75CF0-5E2D-7F4A-F457-7ED664954976">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:38:05 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<sourcePk>5AC69071-17A8-400A-98A6-E3FA7BFBD187</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>744A772C-56D0-7EFF-1070-33DB37C2C9D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB06CB24-A0AB-939F-F144-93B104077412</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rptoutput_rptdetout_1_fk" directorySegmentName="seg_0" id="CA1DF7DA-FD37-083E-7EF6-8CF4423CB1E2">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:46:09 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<sourcePk>388F402B-956A-E3E2-69BA-1956DCE285E1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Detalhes output</nameOnSource>
+<nameOnTarget>Output</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D2F3454-828D-00A9-65CD-DB6ADE3FFD76</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6347DB86-600C-28A0-C2D5-332B85E50776</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

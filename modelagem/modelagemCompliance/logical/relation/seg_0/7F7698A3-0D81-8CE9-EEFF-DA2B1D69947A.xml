@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="modulo_rptrel_2_fk" directorySegmentName="seg_0" id="7F7698A3-0D81-8CE9-EEFF-DA2B1D69947A">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:06:19 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<sourcePk>B5A9A668-9B68-E03D-8335-3C5E358B39A2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32DBAA1B-DC39-4206-1534-694D8051B247</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B9268FC-A7B8-FEDC-6467-D90CCA28C7A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

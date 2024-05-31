@@ -1,0 +1,303 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="744A772C-56D0-7EFF-1070-33DB37C2C9D6" name="EMPRESA CLIENTE">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:15:28 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>cin_empcli</preferredAbbreviation>
+<shortName>gremp</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gremp_id" id="5959E0E4-1767-534E-4AAB-93E6AF6BB057">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:17:00 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="E5B01BDD-1FA2-9E37-EB78-DD40845AEAC3">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:18:39 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vch_id" id="30B231A4-59F1-9D09-3304-5D67AC68AA46">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:43:41 UTC</createdTime>
+<generatorID>E73A5FB0-3E50-26FA-ED73-0FA154137F4E</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>45EF2D1F-95CE-1247-5073-2BE828F9792A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="integração com ldap" id="8620EB4A-86E8-7C4B-0434-71E095A65FCA">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:19:15 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF3A845D-B5F3-A495-F0F1-1C6D2F3AD3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="5537562E-C465-20EB-28C4-06E7438C612B">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:19:46 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="from email " id="AA5C45B4-FA91-D3BE-9570-501C8E2BA39D">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:20:09 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="perfil_id" id="700386A6-9893-19B8-32C8-AE3816E17020">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:41:51 UTC</createdTime>
+<generatorID>CA8280C9-F1C2-C4BE-6129-E21E3DC213A3</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>61F24FC7-EA16-B335-4EB3-27CCFF9315AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logotipo" id="B9B93E65-01AD-BA06-7856-3F62FE84B752">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:20:52 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo inscrição" id="93F6286A-B7FB-ED12-6B99-3079282AC956">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:21:30 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<domain>7A9BAB2F-3095-3BC9-8EDB-5D215EEC3E4B</domain>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="chave token" id="AE1DD389-148F-3AD4-9D64-054AB23ECD9E">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:45:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave token para integração via api]]></commentInRDBMS>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observação " id="ED8222FC-AB71-9169-C46F-71496CB8B97C">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:54:02 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C38D1E65-E2E7-E282-7992-275B93CD037E">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:54:25 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exige validação 2 fatores" id="2DFD395A-01C4-C2E2-6B59-30251A99B716">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:55:27 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<domain>DF3A845D-B5F3-A495-F0F1-1C6D2F3AD3FA</domain>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aplicação de login single sign on" id="FA43762F-1865-0108-EE4F-0413F089255A">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 12:47:14 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dominios single sign on" id="0741AA71-BB96-D466-985F-DD4012F4C7F3">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 12:47:43 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aplicação login portal single sign on" id="6FF60387-BDD4-17FC-E132-237ED4279BE2">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 12:48:08 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ativo" id="05886A76-BB65-0DA4-D70C-4D2A307B4442">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 12:57:27 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF3A845D-B5F3-A495-F0F1-1C6D2F3AD3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel de senha" id="08A70C80-A683-211D-BEA8-16D3E49BB449">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 12:59:46 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F8BF41CF-527E-DAE1-44F1-8BD179ED0070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AC69071-17A8-400A-98A6-E3FA7BFBD187" name="gremp_pk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:17:13 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5959E0E4-1767-534E-4AAB-93E6AF6BB057</newElementsIDs>
+<usedAttributes>
+<attributeRef>5959E0E4-1767-534E-4AAB-93E6AF6BB057</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

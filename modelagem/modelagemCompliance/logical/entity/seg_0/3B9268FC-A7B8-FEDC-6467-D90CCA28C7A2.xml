@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B9268FC-A7B8-FEDC-6467-D90CCA28C7A2" name="RPT_REL">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:39:17 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>rpt_rel</preferredAbbreviation>
+<shortName>rptrel</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rptrel_id" id="5D963D69-1D6A-B847-76E1-18928FCD7D7D">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:07:43 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modulo_id" id="CE32E871-B87C-D399-8A73-827106348754">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:06:19 UTC</createdTime>
+<generatorID>7F7698A3-0D81-8CE9-EEFF-DA2B1D69947A</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<referedAttribute>1AA1881A-8B08-D6E3-2EF4-F712267F3245</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="B1F37987-833C-4AD0-54B8-6462D95902CA">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:40:24 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data hora inclusao" id="866C8435-9C49-5EBA-B3D4-B306D3B67692">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:43:58 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="query" id="FD31E00F-8FD1-2B74-9D87-887904378747">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:44:26 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clausula where" id="BB2D8747-249E-C460-0A13-6E50AA8164F6">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 12:44:37 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3BF769D-B741-11E8-D726-F372CFC2B781" name="RPT_REL PK">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 14:07:54 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D963D69-1D6A-B847-76E1-18928FCD7D7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

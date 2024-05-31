@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="096826F8-C692-4635-EB94-4A1920522FF8" schemaObject="F7A8C719-E751-41F7-B134-A7C0CD14E418" name="rpt_det_output">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>6347DB86-600C-28A0-C2D5-332B85E50776</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<abbreviation>rptoutput</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rptoutput_id" id="B415938B-9CBF-80B5-F5B4-AABB4E58C162">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>CE788B5B-BAFD-5A43-E260-10393407451E</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>rptoutput_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>trg_rptoutput</autoIncrementTriggerName>
+</Column>
+<Column name="lin" id="CE164A5F-8FFF-B71B-B580-672664CE50B8">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>3B7FCC0D-A446-F432-C3A1-C87990186ADF</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="col" id="A8A76BD0-88F0-F2CC-DC2E-A170E8069573">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>36BDA0CA-CD0B-A52F-71E7-7D50E10DDCA2</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lab" id="820F00E6-A5D7-CA70-871F-A258C1A0F377">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Labels que são mostradas no relatório]]></commentInRDBMS>
+<generatorID>A3103759-81C8-F2AC-1952-3F9327096906</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_num" id="D3A6F4AC-4200-78B1-4DD4-8B8BC3E32A5A">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>045F2F16-417C-92A6-E09A-8D7349357EB7</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_char" id="B719A6AF-145C-CFD0-B780-F8AE88640672">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>A267A455-46BE-71C5-0803-73026F707848</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_date" id="21F38C22-42B9-43A8-E2FF-DE66D7E97109">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>C046F41F-27AD-D376-3BE5-D10178DDDD09</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_mask" id="3282DC08-EB41-0A4E-7269-0FFFCD4680F8">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>45FFBBC8-6C83-666D-ABD1-E50D19ED8517</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_type" id="B295E361-EA5E-EC91-3BC4-46CE322675E4">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>1EA642D3-C468-5EA0-0E40-AB3C0D8DE55F</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_scale" id="9B0E82A1-C26D-5E19-7434-A63B2DBA015F">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-28 20:53:23 UTC</createdTime>
+<generatorID>EB247539-74D4-F23F-FD56-F0ECB86A45E6</generatorID>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

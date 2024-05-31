@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32DBAA1B-DC39-4206-1534-694D8051B247" name="MODULO">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:15:24 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>cin_modulo</preferredAbbreviation>
+<shortName>modulo</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="modulo_id" id="1AA1881A-8B08-D6E3-2EF4-F712267F3245">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:15:40 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla" id="0293C1BF-5060-7111-46BB-E163EA7B2206">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:20:14 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descrição" id="51246211-8F7E-180A-2689-15B67F4F5623">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:21:43 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aplicação" id="EADB5AB2-7434-0240-7A98-6F9607B1B620">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:22:07 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="página" id="4D3D7EC8-8484-45F7-1AD7-416514E4D601">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:22:32 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="icone" id="A72998A7-53AD-3B55-7A84-18EAA4EDC897">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:22:53 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seq" id="5F517900-7FF4-2341-0349-EF95D62B8F67">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:23:28 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5A9A668-9B68-E03D-8335-3C5E358B39A2" name="modulo_pk">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-29 13:15:48 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1AA1881A-8B08-D6E3-2EF4-F712267F3245</newElementsIDs>
+<usedAttributes>
+<attributeRef>1AA1881A-8B08-D6E3-2EF4-F712267F3245</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="perfil_vch_fk" directorySegmentName="seg_0" id="E73A5FB0-3E50-26FA-ED73-0FA154137F4E">
+<createdBy>Casa</createdBy>
+<createdTime>2024-05-31 16:43:41 UTC</createdTime>
+<ownerDesignName>modelagemCompliance</ownerDesignName>
+<engineerTo>
+<item key="7FC6DC67-FD72-EBAC-9071-650114C25ADE" value="true"/>
+</engineerTo>
+<sourcePk>9A142340-21EC-2A87-F2C1-0D7ACB2553CE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5E1A3F1-5651-F81B-35AC-78E4F9B2F70B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>744A772C-56D0-7EFF-1070-33DB37C2C9D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
